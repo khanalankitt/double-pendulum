@@ -1,0 +1,8 @@
+/* TEAM */
+Built with care.
+
+/* TECHNOLOGY */
+Three.js (WebGL2) · TypeScript · Vite
+postprocessing · lil-gui
+Lagrangian double-pendulum dynamics integrated by RK4
+Procedural PMREM environment (no external HDRI)

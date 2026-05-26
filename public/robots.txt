@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block crawling of source maps and dev artifacts
+Disallow: /*.map$
+
+Sitemap: {{SITE_URL}}/sitemap.xml

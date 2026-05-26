@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Double pendulum">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#1a2436"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="rod" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cdd6e0"/>
+      <stop offset="100%" stop-color="#6b7686"/>
+    </linearGradient>
+    <radialGradient id="bobA" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#6fb6ff"/>
+    </radialGradient>
+    <radialGradient id="bobB" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffd9b3"/>
+      <stop offset="100%" stop-color="#ff7a26"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <line x1="32" y1="14" x2="44" y2="32" stroke="url(#rod)" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="44" y1="32" x2="36" y2="52" stroke="url(#rod)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="32" cy="14" r="2.6" fill="#3a4456"/>
+  <circle cx="44" cy="32" r="4.6" fill="url(#bobA)"/>
+  <circle cx="36" cy="52" r="5.4" fill="url(#bobB)"/>
+</svg>
